@@ -31,6 +31,7 @@ const dobCell = `<td class='border px-4 py-2'>${entry.dob}</td>`
 const acceptTermsCell = `<td class='border px-4 py-2'>${entry.acceptTerms}</td>`
 const row = `<tr>${nameCell} ${emailCell} ${passwordCell} ${dobCell} ${acceptTermsCell}</tr>`
 return row
+    
 
 }).join('\n')
 const table =` <table class='table-auto w-full'>
